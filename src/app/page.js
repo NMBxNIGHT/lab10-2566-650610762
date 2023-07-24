@@ -40,7 +40,7 @@ export default function RandomUserPage() {
 
   useEffect(() => {
     const amount = localStorage.getItem("genAmount");
-    if (srtamount === null) {
+    if (amount === null) {
       setGenAmount[1];
       return;
     }
